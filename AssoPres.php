@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Présentation de l'association</title>
-    <link rel="stylesheet" href="css/assoPres.css">
+    <link rel="stylesheet" href="css/AssoPres.css">
     <script src="/script/script.js"></script>
 </head>
 <body>
