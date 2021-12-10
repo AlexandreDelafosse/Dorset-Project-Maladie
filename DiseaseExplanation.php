@@ -17,8 +17,10 @@
 // Integration header avec php
 include './repetition/header.php';
 ?>
-
-<h1>The Disease</h1>
+<div class="title">
+    <h1>The Disease</h1>
+    <img src="./img/orange_rectangle_explanation.png" alt="orange rectangle">
+</div>
 
 <section class="first-section">
     <div class="text-left">
