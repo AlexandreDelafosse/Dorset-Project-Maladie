@@ -7,6 +7,7 @@
     <title>SCS - Association Canadienne de la Schizophrénie</title>
     <link rel="stylesheet" href="css/Homepage.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/homepage.css">
     <script src="/script/script.js"></script>
 </head>
 <body>
