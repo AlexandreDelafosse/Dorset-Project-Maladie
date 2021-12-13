@@ -1,0 +1,37 @@
+#logo1{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.orange{
+    background-color: #F78C20;
+    width: 35%;
+}
+
+.home{
+    font-family: Montserrat;
+    transform: translate(-15%, -50%);
+}
+
+.first{
+    padding: 5% 19%;
+}
+
+#section1{
+    display: flex;
+    text-align: right;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 1.25em;
+    padding-top: 10%;
+}
+
+#article2{
+    padding-left: 10%;
+}
+
+#image1{
+    width: 100%;
+}
