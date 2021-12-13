@@ -30,7 +30,7 @@
     color: black;
 }
 
-/* #menu a{
-    display: flex;
-    padding-top: 30%;
-} */
+#menu{
+    height: 5em;
+    line-height: 5em;
+}
