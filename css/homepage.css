@@ -1,3 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&display=swap');
+
+.first{
+    padding: 5% 19%;
+}
+
+.orange{
+    background-color: #F78C20;
+    width: 20%;
+}
+
 .affiche{
     width: 100%;
+}
+
+.home{
+    font-family: Montserrat;
+    transform: translate(-15%, -50%);
+}
+
+.violet{
+    color: #3F127F;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.25em;
+}
+
+.global1{
+    display: flex;
+}
+
+.text1{
+    padding-top: 15%;
+    width: 70%;
+}
+
+.black{
+    padding-top: 5%;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 1.25em;
+}
+
+.bird{
+    width: 40%;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.text2{
+    display: flex;
+    text-align: right;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 1.25em;
+}
+
+.scs{
+    padding-top: 10%;
+    padding-left: 10%;
 }
