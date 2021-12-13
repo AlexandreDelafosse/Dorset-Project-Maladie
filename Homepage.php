@@ -12,6 +12,9 @@
 <body>
 <?php include "repetition/header.php" ?>
     
+    <div>
+        <img class="affiche" src="img/affiche04.jpg" alt="affiche">
+    </div>
 
 
 <?php include "repetition/footer.php" ?>
