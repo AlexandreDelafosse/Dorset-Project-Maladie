@@ -6,7 +6,7 @@
 }
 
 .logo{
-    padding-top: 7px;
+    padding-top: 12.5%;
 }
 
 #menu, #FooterMenu {
@@ -29,6 +29,10 @@
 }
 
 #menu{
-    height: 5em;
-    line-height: 5em;
+    height: 6em;
+    line-height: 6em;
+}
+
+footer{
+    padding: 2.2% 0;
 }

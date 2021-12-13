@@ -60,3 +60,103 @@
     padding-top: 10%;
     padding-left: 10%;
 }
+
+.orange2{
+    background-color: #F78C20;
+    width: 60%;
+}
+
+.pre{
+    font-family: Montserrat;
+    transform: translate(-15%, -50%);
+}
+
+.ques{
+    padding: 10% 0 0 40%;
+}
+
+.sch, .sch2{
+    padding-top: 5%;
+    font-family: Montserrat;
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+.violet2{
+    color: #3F137F;
+}
+
+.eyes, .head, .sleep{
+    padding-top: 10%;
+}
+
+.head, .sleep{
+    padding-left: 22%;
+}
+
+.sleep{
+    width: 20%;
+}
+
+.orange3{
+    background-color: #F78C20;
+    width: 20%;
+}
+
+.text3, .text4{
+    padding-top: 5%;
+    font-family: Montserrat;
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+.logo2
+{
+    width: 50%;
+    padding: 5% 0 5% 25%;
+}
+
+.sim{
+    font-family: Montserrat;
+    transform: translate(-15%, -50%);
+}
+
+.orange4{
+    background-color: #F78C20;
+    width: 25%;
+}
+
+.simu{
+    background-color: #3F137F;
+    width: 100%;
+    height: 100vh;
+}
+
+.start{
+    padding: 20% 0% 10% 42%;
+}
+
+h2{
+    font-family: Montserrat;
+    color: #FFFFFF;
+}
+
+.last{
+    font-family: Montserrat;
+    color: #FFFFFF;
+    font-style: italic;
+    padding-left: 9%;
+    padding-bottom: 5%;
+}
+
+button{
+    background-color: transparent;
+    color: #F78C20;
+    border: 2px solid #F78C20;
+    font-family: Montserrat;
+    font-size: 1.5em;
+    margin-left: 6%;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 15%;
+}
