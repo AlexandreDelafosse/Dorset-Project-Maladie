@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+}
+
+.logo{
+    padding-top: 12.5%;
 }
 
 #menu, #FooterMenu {
@@ -8,27 +14,27 @@
     text-align: center;
     list-style: none;
     display: flex;
+    text-align: center;
     justify-content: space-around;
-    border: 2px solid black;
 }
 
 #menu li a, #FooterMenu li a {
     font-size: 1.25em;
+    font-family: Montserrat;
     text-decoration: none;
+    color: black;
+    font-weight: 100;
 }
 
-
-/* #FooterMenu {
-
-    text-align: center;
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    border: 2px solid black;
+#menu li a:hover, #FooterMenu li a:hover {
+    color: black;
 }
 
-#FooterMenu li a {
-    font-size: 1.25em;
-    text-decoration: none;
+#menu{
+    height: 6em;
+    line-height: 6em;
 }
-*/
+
+footer{
+    padding: 2.2% 0;
+}

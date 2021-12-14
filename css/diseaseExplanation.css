@@ -1,3 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&display=swap');
+
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat;
+}
+
+main{
+    padding: 0 15% 0 15%;
+}
+
+/*------------- TITLE ----------*/
+.title{
+    position: relative;
+    height: 114px;
+    margin-top: 100px;
+}
+.title h1{
+    font-weight: 100;
+    font-size: 36px;
+    z-index: 1;
+    position: absolute;
+}
+
+.title img{
+    width: 224px;
+    height: 43px;
+    position: absolute;
+    top: 15%;
+    left: 35px;
+    z-index: 0;
+}
+
+/*------------- FIRST SECTION ----------*/
+.first-section .part{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.first-section .part .text{
+    font-size: 20;
+    font-weight: 100;
+    max-width: 591px;
+}
+
+.first-section .text-left img{
+    max-width: 302px;
+}
+
+.first-section .text-right img{
+    max-width: 259px;
+}
+
+/*------------- SECOND SECTION ----------*/
+.second-section{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 100px;
+ width: 100%;
+}
+
+.second-section img:first-child{  
+    max-width: 466px;
+}
+
+.second-section .text{
+    margin-top: 50px;
+}
+
+.second-section .pictures{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+
+.second-section .picturePerson{
+    max-width: 242px;
+}
+
+.second-section .pictures .person p{
+    margin-bottom: 20px;
+}
+
+
+/*-------------------------- RESPONSIVE ------------------*/
+@media screen and (max-width: 900px){
+    /*------------- FIRST SECTION ----------*/
+    .first-section .part{
+        flex-direction: column;
+    }
+    .first-section .text-left{
+        flex-direction: column-reverse;
+        margin-top: 40px;
+    }
+    .first-section img{
+        max-width: 80% !important;
+        margin-bottom: 50px;
+    }
+    /*------------- SECOND SECTION ----------*/
+    .second-section img:first-child{  
+        max-width: 100%;
+    }
+
+    .second-section .pictures{
+        flex-direction: column;
+    }
+    .second-section .pictures .person p{
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
 }
