@@ -54,6 +54,10 @@
         </div>
     </section>
 
+    <section id="illuFriends">
+        <img src="img/SCC_SmallHeader-About.jpeg" alt="">
+    </section>
+
     <?php include "repetition/footer.php" ?>
 </body>
 
