@@ -1,0 +1,86 @@
+/* SECTION 1 ------------------------------ */
+
+#head {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.orange{
+    background-color: #F78C20;
+    width: 20%;
+}
+
+.home{
+    font-family: Montserrat;
+    transform: translate(-15%, -50%);
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+#formulaire {
+    display: flex;
+    margin-top: 36px;
+}
+
+#formLeft {
+    width: 50%;
+}
+
+#formRight {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.formInput {
+    width: 80%;
+    height: 48px;
+    font-family: Montserrat;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 33px;
+    border: 1px solid #666666;
+    border-radius: 7px;
+}
+
+.formText {
+    width: 80%;
+    height: 254px;
+    border: 1px solid #666666;
+    border-radius: 7px;
+    margin-top: 33px;
+    font-family: Montserrat;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 14px;
+}
+
+.formSubmit {
+    border: 1px solid #000000;
+    border-radius: 7px;
+    height: 48px;
+    width: 80%;
+    font-family: Montserrat;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 68px;
+    border: 1px solid #666666;
+    border-radius: 7px;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    padding-left: 20px;
+    box-sizing: content-box;
+}
+
+#imgForm {
+    width: 80%;
+    margin-top: 33px;
+}
