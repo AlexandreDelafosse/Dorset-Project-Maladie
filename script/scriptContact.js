@@ -25,36 +25,44 @@
   const errorLastName = document.getElementById('errorLastName')
   const errorEmail = document.getElementById('errorEmail')
   const errorMessage = document.getElementById('errorMessage')
+  const successMessage = document.getElementById('successMessage')
 
   submit.addEventListener('click', function(e){
     e.preventDefault()
-    console.log(firstName.value)
     let validate = 0
     if (firstName.value != "") {
         validate += 1
+        errorFirstName.innerHTML = ""
+        firstName.style.border = "1px solid #666666"
     } else {
         errorFirstName.innerHTML = "The firstname can't be empty"
         firstName.style.border = "red 1px solid"
     }
     if(lastName.value != "") {
         validate += 1
+        errorLastName.innerHTML = ""
+        lastName.style.border = "1px solid #666666"
     } else {
         errorLastName.innerHTML = "The lastname can't be empty"
         lastName.style.border = "red 1px solid"
     }
     if(email.value != "") {
         validate += 1
+        errorEmail.innerHTML = ""
+        email.style.border = "1px solid #666666"
     } else {
         errorEmail.innerHTML = "The email can't be empty"
         email.style.border = "red 1px solid"
     }
     if(message.value != "") {
         validate += 1
+        errorMessage.innerHTML = ""
+        message.style.border = "1px solid #666666"
     } else {
         errorMessage.innerHTML = "The message can't be empty"
         message.style.border = "red 1px solid"
     }
-    if(validate === 4 ) {
-        
+    if(validate === 4) {
+        successMessage.innerHTML = "Thank you for your message"
     }
   })

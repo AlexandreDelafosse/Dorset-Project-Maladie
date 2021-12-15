@@ -30,6 +30,7 @@
                     <textarea type="textarea" class="formText" name="message" placeholder="Message" id="message"></textarea>
                     <p class="error" id="errorMessage"></p>
                     <input class="formSubmit" value="submit" type="submit" id="submit">
+                    <p class="success" id="successMessage"></p>
                 </form>
             </div>
             <div id="formRight">

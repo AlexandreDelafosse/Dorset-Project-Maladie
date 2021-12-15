@@ -91,6 +91,12 @@
     font-family: Montserrat;
 }
 
+.success {
+    color: green;
+    font-family: Montserrat;
+    font-size: 12px;
+}
+
 /* SECTION 2 ------------------------------ */
 
 #partOf {
