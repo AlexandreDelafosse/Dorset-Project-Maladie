@@ -85,6 +85,12 @@
     margin-top: 33px;
 }
 
+.error {
+    color: red;
+    font-size: 12px;
+    font-family: Montserrat;
+}
+
 /* SECTION 2 ------------------------------ */
 
 #partOf {

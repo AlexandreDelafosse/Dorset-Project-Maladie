@@ -8,7 +8,6 @@
     <title>Contact</title>
     <link rel="stylesheet" href="css/Contact.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="/script/script.js"></script>
 </head>
 
 <body>
@@ -22,11 +21,15 @@
         <div id="formulaire">
             <div id="formLeft">
                 <form method="post" action="#" id="contactForm">
-                    <input type="text" class="formInput" name="firstName" placeholder="First name">
-                    <input type="text" class="formInput" name="lastName" placeholder="Last name">
-                    <input type="text" class="formInput" name="email" placeholder="Email">
-                    <textarea type="textarea" class="formText" name="message" placeholder="Message"></textarea>
-                    <input class="formSubmit" value="submit" type="submit">
+                    <input type="text" class="formInput" name="firstName" placeholder="First name" id="firstName">
+                    <p class="error" id="errorFirstName"></p>
+                    <input type="text" class="formInput" name="lastName" placeholder="Last name" id="lastName">
+                    <p class="error" id="errorLastName"></p>
+                    <input type="text" class="formInput" name="email" placeholder="Email" id="email">
+                    <p class="error" id="errorEmail"></p>
+                    <textarea type="textarea" class="formText" name="message" placeholder="Message" id="message"></textarea>
+                    <p class="error" id="errorMessage"></p>
+                    <input class="formSubmit" value="submit" type="submit" id="submit">
                 </form>
             </div>
             <div id="formRight">
@@ -80,6 +83,8 @@
     </section>
 
     <?php include "repetition/footer.php" ?>
+
+    <script type="module" src="script/scriptContact.js"></script>
 </body>
 
 </html>
