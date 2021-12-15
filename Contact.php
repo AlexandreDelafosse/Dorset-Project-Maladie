@@ -35,6 +35,25 @@
         </div>
     </section>
 
+    <section id="partOf">
+        <div class="orange2">
+            <h1 class="home2">They are part of the association</h1>
+        </div>
+
+        <div id="secPartOf">
+            <div class="personnePart">
+                <img src="img/photo-1544005313-94ddf0286df2.jpeg" alt="femme">
+                <p>Marina</p>
+                <p>I joined the association last January, and I am happy to feel useful</p>
+            </div>
+            <div class="personnePart">
+                <img src="img/photo-1508214751196-bcfd4ca60f91.jpeg" alt="femme">
+                <p>Kate</p>
+                <p>I joined the association last January, and I am happy to feel useful</p>
+            </div>
+        </div>
+    </section>
+
     <?php include "repetition/footer.php" ?>
 </body>
 

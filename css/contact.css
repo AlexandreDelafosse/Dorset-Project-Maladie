@@ -84,3 +84,50 @@
     width: 80%;
     margin-top: 33px;
 }
+
+/* SECTION 2 ------------------------------ */
+
+#partOf {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.orange2{
+    background-color: #F78C20;
+    width: 55%;
+}
+
+.home2{
+    font-family: Montserrat;
+    transform: translate(-5%, -50%);
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+#secPartOf {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.personnePart {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.personnePart img {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+}
+
+.personnePart p {
+    font-family: Montserrat;
+    font-size: 20px;
+    margin-top: 45px;
+}
