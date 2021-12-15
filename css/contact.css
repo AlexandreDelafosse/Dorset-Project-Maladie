@@ -137,3 +137,51 @@
 #illuFriends {
     margin-top: 150px;
 }
+
+#illuFriends img {
+    width: 100%;
+}
+
+/* SECTION 4 ------------------------------ */
+
+#trust {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.orange3{
+    background-color: #F78C20;
+    width: 25%;
+}
+
+.home3{
+    font-family: Montserrat;
+    transform: translate(-10%, -50%);
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+#containerTrust {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.trustUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 224px;
+}
+
+.trustUs p {
+    font-family: Montserrat;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}

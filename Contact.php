@@ -37,7 +37,7 @@
 
     <section id="partOf">
         <div class="orange2">
-            <h1 class="home2">They are part of the association</h1>
+            <h2 class="home2">They are part of the association</h2>
         </div>
 
         <div id="secPartOf">
@@ -56,6 +56,27 @@
 
     <section id="illuFriends">
         <img src="img/SCC_SmallHeader-About.jpeg" alt="">
+    </section>
+
+    <section id="trust">
+        <div class="orange3">
+            <h2 class="home3">They trust us</h2>
+        </div>
+
+        <div id="containerTrust">
+            <div class="trustUs">
+                <img src="img/BCSS-Joint 2.png" alt="Entreprise">
+                <p>To support families affected by schizophrenia and other serious mental illnesses in British Columbia through education, advocacy, and research.</p>
+            </div>
+            <div class="trustUs">
+                <img src="img/Group2.png" alt="Entreprise">
+                <p>Provide quality mental health education and value-based peer support for Manitobans and their families dealing with mental health challenges.</p>
+            </div>
+            <div class="trustUs">
+                <img src="img/Star1.png" alt="Entreprise">
+                <p>MHRP provides services and programs for people with mental illness and mental health problems regardless of their diagnosis.</p>
+            </div>
+        </div>
     </section>
 
     <?php include "repetition/footer.php" ?>
