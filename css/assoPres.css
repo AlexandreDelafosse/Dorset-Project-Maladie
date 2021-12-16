@@ -1,25 +1,30 @@
-#logo1{
+*{
+    font-family: Montserrat;
+}
+
+
+#logo1 {
     width: 60%;
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto
 }
 
-.orange{
+.orange {
     background-color: #F78C20;
     width: 35%;
 }
 
-.home{
+.home {
     font-family: Montserrat;
     transform: translate(-15%, -50%);
 }
 
-.first{
+.first {
     padding: 5% 19%;
 }
 
-#section1{
+#section1 {
     display: flex;
     text-align: right;
     font-family: Montserrat;
@@ -28,10 +33,67 @@
     padding-top: 10%;
 }
 
-#article2{
+#article2 {
     padding-left: 10%;
 }
 
-#image1{
+#image1 {
     width: 100%;
+    padding-bottom: 75px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+#hr1 {
+    width: 40%;
+}
+
+#hr2 {
+    width: 60%;
+}
+
+#hr1,
+#hr2 {
+    margin: auto;
+}
+
+#textebas{
+    margin-top: 75px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+.text{
+    list-style: square;
+    background-color: #F78C20;
+    width: 15px;
+    height: 15px;
+}
+
+.textetcarre{
+    display: flex;
+    padding: 20px;
+    width: 65%;
+    margin: auto;
+}
+
+.textetcarre p {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+#buttondonate{
+    border: 1px solid black;
+    padding: 1% 5%;
+    display: block;
+    text-align: center;
+    width: 528px;
+    font-size: 36px;
+    margin: auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
 }
